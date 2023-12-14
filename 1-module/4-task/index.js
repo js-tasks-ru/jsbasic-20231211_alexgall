@@ -1,5 +1,8 @@
 function checkSpam(str) {
-  if (str.includes("1XbeT") || str.includes("xxx")) {
+  if (
+    str.toUpperCase().includes("1XBET") ||
+    str.toUpperCase().includes("XXX")
+  ) {
     return true;
   } else {
     return false;
