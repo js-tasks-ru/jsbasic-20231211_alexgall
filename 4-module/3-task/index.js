@@ -8,7 +8,7 @@ function highlight(table) {
     if (dataAvailable) {
       row.classList.add(dataAvailable === "true" ? "available" : "unavailable");
     } else {
-      row.setAttribute("hidden", "true");
+      row.hidden = true;
     }
 
     let genderCell = row.cells[2];
